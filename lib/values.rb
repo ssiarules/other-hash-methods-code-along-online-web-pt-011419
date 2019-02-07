@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
- groceries.sort_by { |hash| hash[:value] }
+ groceries.values
 
 end
